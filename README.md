@@ -19,15 +19,15 @@ npm install
 
 ## Run
 
-node index.js
+node example.js
 
 This should output a midi file which can be played or examined in sheetmusic software like Musescore.
 
 ## Usage
 ```js
-const Lindenmayer = require('./Lsystem');
+const Lindenmayer = require('l-system-melody').Lsystem;
 const lindenmayer = new Lindenmayer();
-const Melody = require('./Melody');
+const Melody = require('l-system-melody').Melody;
 const melody = new Melody();
 
 // Initializing a L-System that produces the Koch-curve
