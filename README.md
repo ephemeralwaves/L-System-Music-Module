@@ -1,6 +1,6 @@
 Based on the the Fractal-Music-Generator Musescore 2.0 plugin, an npm module to create monophonic melodies using L-Systems.
 
-I created this as a compositional tool, and the rule set can be changed to generate different melodies. The rule set I used is one that is usually used in visual art to generate Koch curves, rules : (F -> F+F-F-F+F).
+I created this as a compositional tool and the rule set can be changed to generate different melodies. The rule set I used is one that is usually used in visual art to generate Koch curves, rules : (F -> F+F-F-F+F).
 
 The melody generator interprets each “F” as a note and each “+” or “-” as going up or down a pitch. I set my start note to “C4”, confined the melody to only move up and down the C pentatonic scale and created the score below using the Koch curve ruleset as seen above.  The rule set can be changed by changing 'therules' array.
 
