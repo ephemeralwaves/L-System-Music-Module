@@ -2,8 +2,11 @@
   "name": "l-system-melody",
   "version": "1.0.1",
   "description": "Monophonic melody generator using l-system rules",
-  "repository": "https://github.com/ephemeralwaves/L-System-Music-Module",
   "main": "index.js",
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:ephemeralwaves/L-System-Music-Module.git"
+},
   "dependencies": {
     "midi-writer-js": "1.7.1"
   },
@@ -15,5 +18,12 @@
     "test": "mocha"
   },
   "author": "ephemeralwaves",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+  "lsystem",
+  "composition tools",
+  "melody",
+  "music",
+  "generator"
+]
 }
