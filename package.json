@@ -1,6 +1,6 @@
 {
   "name": "l-system-melody",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monophonic melody generator using l-system rules",
   "repository": "https://github.com/ephemeralwaves/L-System-Music-Module",
   "main": "index.js",
