@@ -7,6 +7,7 @@ The melody generator interprets each “F” as a note and each “+” or “-�
 ## Install
 
 git clone https://github.com/ephemeralwaves/L-System-Music-Module.git
+
 npm install
 
 ## Run
