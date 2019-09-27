@@ -5,10 +5,17 @@ I created this as a compositional tool and the rule set can be changed to genera
 The melody generator interprets each “F” as a note and each “+” or “-” as going up or down a pitch. I set my start note to “C4”, confined the melody to only move up and down the C pentatonic scale and created the score below using the Koch curve ruleset as seen above.  The rule set can be changed by changing 'therules' array.
 
 ## Install
+```js
+npm i l-system-melody
+```
 
+OR
+
+```js
 git clone https://github.com/ephemeralwaves/L-System-Music-Module.git
 
 npm install
+```
 
 ## Run
 
