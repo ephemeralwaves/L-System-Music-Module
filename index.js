@@ -4,17 +4,17 @@ const Melody = require('./Melody');
 const melody = new Melody();
 
 // Initializing a L-System that produces the Koch-curve
-var lSystemLoops = 4; // how many l-system iterations to pre-compute
-var thestring = 'F'; // "axiom" or start of the string
-var therules = []; // array for rules
-therules[0] = ['F', 'F+F-F-F+F']; // rules based on Koch Curve
+var numberOfIterations = 4; // how many l-system iterations to pre-compute
+var theString = 'F'; // "axiom" or start of the string
+var theRules = []; // array for rules
+theRules[0] = ['F', 'F+F-F-F+F']; // rules based on Koch Curve
 var computedString; // variable to store the computed string
 
 // Compute L-System
-lindenmayer.compute(lSystemLoops,thestring,therules, function(thestring) {
-  computedString = thestring;
-  console.log(computedString);
+lindenmayer.compute(numberOfIterations,theString,theRules, function(theString) {
+  computedString = theString;
   return computedString;
 });
+
 
 melody.create(computedString);
