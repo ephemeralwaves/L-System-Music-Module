@@ -21,7 +21,7 @@ npm install
 
 node example.js
 
-This should output a midi file which can be played or examined in sheetmusic software like Musescore.
+This should output a midi file called fractalmelody.mid (this name can be changed in Melody.js) which can be played or examined in sheetmusic software like Musescore.
 
 ## Usage
 ```js
